@@ -1,0 +1,13 @@
+.pages {
+  margin: 8px 0 8px 3px;
+}
+.pages span {
+  cursor: pointer;
+  border: 1px solid blue;
+  /* margin: 5px; */
+  padding: 7px 5px;
+}
+.currentPage{
+  font-weight: 600;
+  background-color: aqua;
+}

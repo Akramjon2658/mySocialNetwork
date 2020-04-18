@@ -1,0 +1,20 @@
+.nav {
+  padding-top: 15px;
+    background-color: #1d8d4c;
+    /* width: 25%; */
+    /* margin-right: 10px; */
+    grid-area: n;
+  }
+  ul {
+    list-style: none;
+  }
+  .item {
+    padding: 0px 10px 0 10px; 
+  }
+  .item a {
+    color: white;
+    text-decoration: none;
+  }
+  .item a.activeLink{
+    color: gold;
+  }

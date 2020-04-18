@@ -1,0 +1,19 @@
+.content {
+    /* height: 60vh; */
+    background-color: #7ea732;
+    grid-area: c;
+    overflow: auto;
+    height: 80vh;
+    /* display: flex; */
+  }
+/* .dialog {
+  color: white;
+} */
+.contentImage {
+  width: 80%;
+  height: 150px;
+}
+/* img{
+  width: 90%;
+  height: 150px;
+} */
