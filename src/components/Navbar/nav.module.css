@@ -4,6 +4,7 @@
     /* width: 25%; */
     /* margin-right: 10px; */
     grid-area: n;
+    border-radius: 10px;
   }
   ul {
     list-style: none;

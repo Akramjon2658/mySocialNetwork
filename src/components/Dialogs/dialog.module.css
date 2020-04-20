@@ -3,8 +3,9 @@
   background-color: #7ea732;
   grid-area: c;
   display: grid;
-
+  
   grid-template-columns: 2fr 10fr;
+  border-radius: 10px;
 }
 
 .dialogItems {

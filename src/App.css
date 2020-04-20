@@ -10,6 +10,7 @@
 
 .app-wrapper-content {
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 .preloader {
   margin: 200px auto;

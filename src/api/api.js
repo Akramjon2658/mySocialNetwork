@@ -30,6 +30,15 @@ export const profileAPI = {
     },
   updateStatus(status) {
     return initialAxios.put(`profile/status`, {status: status})
+  },
+  savePhoto(photos) {
+    let data = new FormData()
+    data.append('image', photos[0])
+    return initialAxios.put(`profile/photo`, data, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    })
   }
 }
 export const authAPI = {

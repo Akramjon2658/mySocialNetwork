@@ -1,9 +1,10 @@
 .content {
     /* height: 60vh; */
-    background-color: #7ea732;
+    background-color: #74d1e9;
     grid-area: c;
     overflow: auto;
     height: 80vh;
+    border-radius: 10px;
     /* display: flex; */
   }
 /* .dialog {
@@ -17,3 +18,41 @@
   width: 90%;
   height: 150px;
 } */
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.profile .profImage {
+  border: 1px solid blueviolet;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  padding: 20px;
+}
+.profile img {
+  max-width: 350px;
+  border-radius: 50%;
+}
+.profile .restData {
+  width: 45%;
+  border: 1px solid blueviolet;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  padding: 20px;
+}
+.profile .restData td{
+  width: 45%;
+  margin-left: 15px
+}
+.uploadPhoto {
+  display: none;
+}
+.profImage:hover .uploadPhoto{
+  display: block;
+}
+.contact {
+  padding-left: 15px;
+}
+.description {
+  padding: 10px;
+}
